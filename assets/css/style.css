@@ -1,0 +1,180 @@
+html {
+    font-size: 20px;
+    border: #000 solid 2px;
+    margin: 10px 200px;
+    position: absolute;
+    background-color: #e4e0e0;
+}
+
+#header {
+    font-size: 24px;
+}
+
+#header #banner {
+    background-color: rgb(168, 41, 9);
+    color: #020001;
+    margin-top: 40px;
+    height: 160px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2.4px solid #000;
+}
+
+#header #banner #name {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#header #banner #job {
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+#header #avt img{
+    width: 220px;
+    height: 220px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: #000 solid 2px; 
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+
+
+#header ul {
+    list-style-type: none;
+}
+
+#header #infor-contact .col-infor {
+    padding: 10px 0px 10px 200px;
+    display: inline-block;
+}
+
+#header .col-infor i {
+    padding: 12px;
+    color: rgb(158, 13, 13);
+}
+
+
+.horizontal-line hr {
+    background-color: #000;
+    border: 1.2px solid #000;
+    border-radius: 50%;
+    margin: 0px 25px;
+    border-radius: 5%;
+}
+
+#content .col-content {
+    display: inline-block;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#content .one {
+    width: auto;
+}
+
+#content .tow {
+    width: auto;
+}
+
+#content .tow,
+#content .one,
+#content .career-goals {
+    margin-left: 25px;
+}
+
+#content h2 {
+    display: inline-block;
+    border-bottom: 5px solid rgb(245, 8, 8);
+}
+
+#content h2 > .text-content {
+    display: block;
+}
+#content .vertical-line {
+    display: inline-block;
+    margin-left: 40%;
+}
+#content .vertical-line hr {
+    width: 3px;
+    height: 1200px;
+    background-color: rgb(255, 43, 6);
+    border: rgb(255, 43, 6) 0.2px solid;
+    box-sizing: border-box;
+    margin: 5px 20px;
+    float: left;
+    position: relative;
+    left: 20px;
+}
+
+#content .skills-list meter {
+    width: 200px;
+    height: 16px;
+}
+
+#content .skills-list li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#content .career-goals .text-content {
+    margin-bottom: 25px;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+#content p,
+#content h2 {
+    margin: 8px 0px 2px 0px;
+    padding: 0px;
+}
+
+#content .time {
+    color: #757575;
+    font-style: italic;
+    font-size: 18px;
+    padding-left: 16px;
+}
+
+#content .title {
+    font-weight: bold;
+}
+
+#content .category {
+    color: rgb(189, 38, 11);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+#content ul {
+    padding: 0px 10px;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#content li {
+    padding: 5px;
+}
+
+#content .elm-content {
+    padding: 10px 10px 20px 10px;
+}
+
+#content .skills-list li > p {
+    display: inline-block;
+    padding: 0px 5px;
+    width: 100px;
+}
